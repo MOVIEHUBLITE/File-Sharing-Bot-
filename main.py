@@ -1,7 +1,6 @@
 from pyrogram import Client
 
 
-
 TextBot = Client(
     "TextBot"
     api_hash="5820bc246505e0ff60af5391d649f9a6",
