@@ -1,14 +1,13 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from variables import STAT_STICK, PICS, ADMIN, DELAY
-import asyncio
-import random
+from pyrogram import Client
 
 
-Text = 
 
+TextBot = Client(
+    "TextBot"
+    api_hash=
+    api_id=
+    bot_token=
+    plugins=dict(root="TextBot")
+)
 
-@Client.on_message(filters.private & filters.command(["start"]))
-async def start(client,message):
- await message.reply_text("Helo iam Youtube Video Search\nUse in inline mode")
- 
+TextBot.run()
